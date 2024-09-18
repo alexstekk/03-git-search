@@ -16,7 +16,7 @@ export const InfoItem = ({ icon, text, isLink }: InfoItemProps) => {
   }
 
   return (
-    <div className={`${styles.infoItem}${text ? "" : `${styles.empty}`}`}>
+    <div className={`${styles.infoItem}${text ? "" : ` ${styles.empty}`}`}>
       {icon}
       <div>
         {isLink && text ? (
