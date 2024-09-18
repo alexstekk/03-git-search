@@ -8,7 +8,7 @@ function App() {
       <TheHeader />
       <Search
         hasError
-        onSubmit={() => {}}
+        onSubmit={() => {console.log('form submit')}}
       />
     </Container>
   );
