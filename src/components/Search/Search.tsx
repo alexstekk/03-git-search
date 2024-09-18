@@ -16,8 +16,8 @@ type FormFields = {
 export const Search = ({ hasError, onSubmit }: SearchProps) => {
   // const searchRef = useRef<HTMLInputElement | null>(null);
 
-  // const handleSubmit = (event: React.FormEvent<HTMLFormElement & FormFields>) => {
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement & FormFields>) => {
+  // const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const text = event.currentTarget.username.value;
 
