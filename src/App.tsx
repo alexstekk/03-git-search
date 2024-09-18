@@ -6,6 +6,9 @@ import { UserCard } from "components/UserCard";
 import { defaultUser } from "mock";
 
 function App() {
+
+
+  
   return (
     <Container>
       <TheHeader />
